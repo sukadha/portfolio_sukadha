@@ -1,0 +1,77 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.bg-image {
+  background-image: url("./idea.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding-bottom: 50px;
+}
+
+.content {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+}
+
+.underline {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.projects-box {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-item {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-item h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
